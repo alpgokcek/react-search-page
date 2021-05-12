@@ -1,0 +1,1204 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Nokia 3.4 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990877311026.jpg/format:webp",
+            "createdDate": "2020-08-01T01:01:23.000Z",
+            "brand": "Nokia",
+            "color": "Koyu Yeşil",
+            "listing_price": 195.6,
+            "sale_price": 179.95
+        },
+        {
+            "id": 2,
+            "title": "Samsung Galaxy Note 20 Ultra 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/1100/10986385637426.jpg/format:webp",
+            "createdDate": "2020-05-18T09:18:12.000Z",
+            "brand": "Samsung",
+            "color": "Lila",
+            "listing_price": 147.6,
+            "sale_price": 147.6
+        },
+        {
+            "id": 3,
+            "title": "Xiaomi Redmi Note 10 Pro Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/47/550/10904391778354.jpg/format:webp",
+            "createdDate": "2020-09-04T10:56:37.000Z",
+            "brand": "Xiaomi",
+            "color": "Lila",
+            "listing_price": 154,
+            "sale_price": 154
+        },
+        {
+            "id": 4,
+            "title": "Blackberry Keyone Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990879670322.jpg/format:webp",
+            "createdDate": "2020-08-11T03:20:11.000Z",
+            "brand": "Blackberry",
+            "color": "Mavi",
+            "listing_price": 123.2,
+            "sale_price": 99.79
+        },
+        {
+            "id": 5,
+            "title": "Samsung Galaxy S21 Ultra 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/47/1100/10904392040498.jpg/format:webp",
+            "createdDate": "2020-12-15T11:33:50.000Z",
+            "brand": "Samsung",
+            "color": "Sarı",
+            "listing_price": 30.6,
+            "sale_price": 30.6
+        },
+        {
+            "id": 6,
+            "title": "Samsung Galaxy Note 20 Ultra 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990879670322.jpg/format:webp",
+            "createdDate": "2021-01-03T01:12:27.000Z",
+            "brand": "Samsung",
+            "color": "Lila",
+            "listing_price": 139,
+            "sale_price": 120.93
+        },
+        {
+            "id": 7,
+            "title": "Nokia 3.4 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/1100/10986386096178.jpg/format:webp",
+            "createdDate": "2021-03-08T11:09:46.000Z",
+            "brand": "Nokia",
+            "color": "Fıstık Yeşili",
+            "listing_price": 23.8,
+            "sale_price": 23.8
+        },
+        {
+            "id": 8,
+            "title": "Apple iPhone 12 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/1100/10986386325554.jpg/format:webp",
+            "createdDate": "2020-10-14T01:32:14.000Z",
+            "brand": "Apple",
+            "color": "Koyu Yeşil",
+            "listing_price": 71.8,
+            "sale_price": 71.08
+        },
+        {
+            "id": 9,
+            "title": "Apple iPhone 7 Plus Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/33/550/10424610488370.jpg/format:webp",
+            "createdDate": "2020-10-30T12:36:28.000Z",
+            "brand": "Apple",
+            "color": "Sarı",
+            "listing_price": 113.8,
+            "sale_price": 110.39
+        },
+        {
+            "id": 10,
+            "title": "LG Velvet 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/40/550/10653668933682.jpg/format:webp",
+            "createdDate": "2020-08-28T04:32:28.000Z",
+            "brand": "LG",
+            "color": "Lacivert",
+            "listing_price": 59.8,
+            "sale_price": 49.63
+        },
+        {
+            "id": 11,
+            "title": "Blackberry Curve 8520 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/1100/10986386096178.jpg/format:webp",
+            "createdDate": "2020-08-16T10:36:37.000Z",
+            "brand": "Blackberry",
+            "color": "Lacivert",
+            "listing_price": 71.2,
+            "sale_price": 61.23
+        },
+        {
+            "id": 12,
+            "title": "Blackberry 9720 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10378895654962.jpg/format:webp",
+            "createdDate": "2020-08-26T23:04:17.000Z",
+            "brand": "Blackberry",
+            "color": "Koyu Yeşil",
+            "listing_price": 73.4,
+            "sale_price": 65.33
+        },
+        {
+            "id": 13,
+            "title": "Blackberry 9720 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990874787890.jpg/format:webp",
+            "createdDate": "2020-09-14T05:24:44.000Z",
+            "brand": "Blackberry",
+            "color": "Kırmızı",
+            "listing_price": 112.4,
+            "sale_price": 112.4
+        },
+        {
+            "id": 14,
+            "title": "Huawei P40 Pro Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/40/550/10653577871410.jpg/format:webp",
+            "createdDate": "2020-07-27T12:35:23.000Z",
+            "brand": "Huawei",
+            "color": "Siyah",
+            "listing_price": 161,
+            "sale_price": 161
+        },
+        {
+            "id": 15,
+            "title": "Xiaomi Redmi Note 10 Pro Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10383382183986.jpg/format:webp",
+            "createdDate": "2021-03-03T03:28:11.000Z",
+            "brand": "Xiaomi",
+            "color": "Su Yeşili",
+            "listing_price": 178.4,
+            "sale_price": 178.4
+        },
+        {
+            "id": 16,
+            "title": "Blackberry Keyone Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/47/1100/10904392040498.jpg/format:webp",
+            "createdDate": "2020-11-23T12:51:54.000Z",
+            "brand": "Blackberry",
+            "color": "Fıstık Yeşili",
+            "listing_price": 76.6,
+            "sale_price": 61.28
+        },
+        {
+            "id": 17,
+            "title": "Blackberry Curve 8520 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/1100/10986385637426.jpg/format:webp",
+            "createdDate": "2021-01-28T03:42:18.000Z",
+            "brand": "Blackberry",
+            "color": "Lacivert",
+            "listing_price": 114.6,
+            "sale_price": 93.97
+        },
+        {
+            "id": 18,
+            "title": "Apple iPhone 12 Pro Max Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990879670322.jpg/format:webp",
+            "createdDate": "2020-05-24T08:14:16.000Z",
+            "brand": "Apple",
+            "color": "Siyah",
+            "listing_price": 168.6,
+            "sale_price": 165.23
+        },
+        {
+            "id": 19,
+            "title": "Xiaomi Poco F3 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/1100/10986386325554.jpg/format:webp",
+            "createdDate": "2020-12-15T04:27:02.000Z",
+            "brand": "Xiaomi",
+            "color": "Gri",
+            "listing_price": 195.2,
+            "sale_price": 150.3
+        },
+        {
+            "id": 20,
+            "title": "Samsung Galaxy A72 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/1100/10986385866802.jpg/format:webp",
+            "createdDate": "2020-08-01T18:37:10.000Z",
+            "brand": "Samsung",
+            "color": "Turuncu",
+            "listing_price": 30,
+            "sale_price": 23.1
+        },
+        {
+            "id": 21,
+            "title": "Blackberry Curve 8520 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990877311026.jpg/format:webp",
+            "createdDate": "2020-06-29T03:50:13.000Z",
+            "brand": "Blackberry",
+            "color": "Kırmızı",
+            "listing_price": 197.4,
+            "sale_price": 157.92
+        },
+        {
+            "id": 22,
+            "title": "Samsung Galaxy Note 20 Ultra 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/1100/10986385637426.jpg/format:webp",
+            "createdDate": "2020-07-05T21:29:08.000Z",
+            "brand": "Samsung",
+            "color": "Fıstık Yeşili",
+            "listing_price": 58.4,
+            "sale_price": 58.4
+        },
+        {
+            "id": 23,
+            "title": "LG V60 ThinQ 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/40/550/10653577871410.jpg/format:webp",
+            "createdDate": "2020-12-01T10:40:38.000Z",
+            "brand": "LG",
+            "color": "Sarı",
+            "listing_price": 126,
+            "sale_price": 119.7
+        },
+        {
+            "id": 24,
+            "title": "Apple iPhone 7 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990874787890.jpg/format:webp",
+            "createdDate": "2021-04-01T11:11:08.000Z",
+            "brand": "Apple",
+            "color": "Su Yeşili",
+            "listing_price": 74.8,
+            "sale_price": 74.8
+        },
+        {
+            "id": 25,
+            "title": "LG Wing 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990874787890.jpg/format:webp",
+            "createdDate": "2020-10-14T14:04:53.000Z",
+            "brand": "LG",
+            "color": "Su Yeşili",
+            "listing_price": 32.8,
+            "sale_price": 32.8
+        },
+        {
+            "id": 26,
+            "title": "Xiaomi Poco X3 Pro Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10383382249522.jpg/format:webp",
+            "createdDate": "2021-05-01T01:59:15.000Z",
+            "brand": "Xiaomi",
+            "color": "Su Yeşili",
+            "listing_price": 90.4,
+            "sale_price": 71.42
+        },
+        {
+            "id": 27,
+            "title": "Huawei nova 7i Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/1100/10986385866802.jpg/format:webp",
+            "createdDate": "2020-12-30T12:49:37.000Z",
+            "brand": "Huawei",
+            "color": "Su Yeşili",
+            "listing_price": 163.8,
+            "sale_price": 124.49
+        },
+        {
+            "id": 28,
+            "title": "Xiaomi Mi 11 Ultra Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/40/550/10653577871410.jpg/format:webp",
+            "createdDate": "2020-06-24T17:34:19.000Z",
+            "brand": "Xiaomi",
+            "color": "Mavi",
+            "listing_price": 90.8,
+            "sale_price": 90.8
+        },
+        {
+            "id": 29,
+            "title": "Xiaomi Mi 11 Ultra Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10378895654962.jpg/format:webp",
+            "createdDate": "2021-04-03T05:25:07.000Z",
+            "brand": "Xiaomi",
+            "color": "Fıstık Yeşili",
+            "listing_price": 170.2,
+            "sale_price": 151.48
+        },
+        {
+            "id": 30,
+            "title": "Apple iPhone 12 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/47/1100/10904392040498.jpg/format:webp",
+            "createdDate": "2021-03-06T06:11:20.000Z",
+            "brand": "Apple",
+            "color": "Fıstık Yeşili",
+            "listing_price": 26,
+            "sale_price": 20.8
+        },
+        {
+            "id": 31,
+            "title": "Apple iPhone 11 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/40/550/10653577871410.jpg/format:webp",
+            "createdDate": "2020-06-29T07:51:33.000Z",
+            "brand": "Apple",
+            "color": "Fıstık Yeşili",
+            "listing_price": 64.4,
+            "sale_price": 64.4
+        },
+        {
+            "id": 32,
+            "title": "Nokia G20 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/40/550/10653577871410.jpg/format:webp",
+            "createdDate": "2021-04-27T18:45:24.000Z",
+            "brand": "Nokia",
+            "color": "Gri",
+            "listing_price": 51.6,
+            "sale_price": 51.6
+        },
+        {
+            "id": 33,
+            "title": "Xiaomi Poco F3 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10383382249522.jpg/format:webp",
+            "createdDate": "2021-02-28T13:06:26.000Z",
+            "brand": "Xiaomi",
+            "color": "Sarı",
+            "listing_price": 60,
+            "sale_price": 60
+        },
+        {
+            "id": 34,
+            "title": "Xiaomi Poco X3 Pro Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990877311026.jpg/format:webp",
+            "createdDate": "2020-08-18T19:33:39.000Z",
+            "brand": "Xiaomi",
+            "color": "Koyu Yeşil",
+            "listing_price": 192.8,
+            "sale_price": 173.52
+        },
+        {
+            "id": 35,
+            "title": "Samsung Galaxy A52 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990879670322.jpg/format:webp",
+            "createdDate": "2021-01-21T08:01:02.000Z",
+            "brand": "Samsung",
+            "color": "Su Yeşili",
+            "listing_price": 144.6,
+            "sale_price": 144.6
+        },
+        {
+            "id": 36,
+            "title": "LG Velvet 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990877311026.jpg/format:webp",
+            "createdDate": "2020-12-24T22:51:49.000Z",
+            "brand": "LG",
+            "color": "Lila",
+            "listing_price": 31.2,
+            "sale_price": 31.2
+        },
+        {
+            "id": 37,
+            "title": "LG Velvet 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/1100/10995125452850.jpg/format:webp",
+            "createdDate": "2021-03-07T17:53:50.000Z",
+            "brand": "LG",
+            "color": "Lila",
+            "listing_price": 50,
+            "sale_price": 50
+        },
+        {
+            "id": 38,
+            "title": "Nokia 3.4 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/1100/10986385637426.jpg/format:webp",
+            "createdDate": "2021-01-01T23:54:32.000Z",
+            "brand": "Nokia",
+            "color": "Lacivert",
+            "listing_price": 199.6,
+            "sale_price": 185.63
+        },
+        {
+            "id": 39,
+            "title": "Nokia X10 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/1100/10986385637426.jpg/format:webp",
+            "createdDate": "2020-07-02T23:49:07.000Z",
+            "brand": "Nokia",
+            "color": "Su Yeşili",
+            "listing_price": 181.4,
+            "sale_price": 174.14
+        },
+        {
+            "id": 40,
+            "title": "Nokia 3.4 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/33/550/10424610488370.jpg/format:webp",
+            "createdDate": "2021-01-24T18:34:18.000Z",
+            "brand": "Nokia",
+            "color": "Lacivert",
+            "listing_price": 153.8,
+            "sale_price": 124.58
+        },
+        {
+            "id": 41,
+            "title": "Samsung Galaxy Note 20 Ultra 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/1100/10383382282290.jpg/format:webp",
+            "createdDate": "2020-05-25T03:39:35.000Z",
+            "brand": "Samsung",
+            "color": "Lila",
+            "listing_price": 162.8,
+            "sale_price": 162.8
+        },
+        {
+            "id": 42,
+            "title": "Nokia X20 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10378886938674.jpg/format:webp",
+            "createdDate": "2020-07-07T17:18:09.000Z",
+            "brand": "Nokia",
+            "color": "Sarı",
+            "listing_price": 57.6,
+            "sale_price": 47.23
+        },
+        {
+            "id": 43,
+            "title": "Nokia 5.4 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/40/550/10653668933682.jpg/format:webp",
+            "createdDate": "2021-02-07T10:44:01.000Z",
+            "brand": "Nokia",
+            "color": "Haki",
+            "listing_price": 152.2,
+            "sale_price": 140.02
+        },
+        {
+            "id": 44,
+            "title": "LG V60 ThinQ 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10378886938674.jpg/format:webp",
+            "createdDate": "2020-05-30T20:19:32.000Z",
+            "brand": "LG",
+            "color": "Gri",
+            "listing_price": 44.6,
+            "sale_price": 40.14
+        },
+        {
+            "id": 45,
+            "title": "Nokia X20 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/1100/10995125452850.jpg/format:webp",
+            "createdDate": "2020-08-02T12:42:28.000Z",
+            "brand": "Nokia",
+            "color": "Gri",
+            "listing_price": 196.8,
+            "sale_price": 196.8
+        },
+        {
+            "id": 46,
+            "title": "Blackberry Bold 9700 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990879670322.jpg/format:webp",
+            "createdDate": "2021-02-01T18:06:38.000Z",
+            "brand": "Blackberry",
+            "color": "Kırmızı",
+            "listing_price": 71.6,
+            "sale_price": 54.42
+        },
+        {
+            "id": 47,
+            "title": "Nokia G20 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10383382249522.jpg/format:webp",
+            "createdDate": "2020-12-01T21:48:15.000Z",
+            "brand": "Nokia",
+            "color": "Lacivert",
+            "listing_price": 167,
+            "sale_price": 151.97
+        },
+        {
+            "id": 48,
+            "title": "Nokia 5.4 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10378895523890.jpg/format:webp",
+            "createdDate": "2021-02-14T22:01:32.000Z",
+            "brand": "Nokia",
+            "color": "Haki",
+            "listing_price": 108.2,
+            "sale_price": 108.2
+        },
+        {
+            "id": 49,
+            "title": "Nokia 5.4 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10378895523890.jpg/format:webp",
+            "createdDate": "2021-03-14T20:28:14.000Z",
+            "brand": "Nokia",
+            "color": "Haki",
+            "listing_price": 121.2,
+            "sale_price": 121.2
+        },
+        {
+            "id": 50,
+            "title": "Apple iPhone 12 Pro Max Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990877311026.jpg/format:webp",
+            "createdDate": "2020-05-18T08:52:50.000Z",
+            "brand": "Apple",
+            "color": "Fıstık Yeşili",
+            "listing_price": 177.8,
+            "sale_price": 177.8
+        },
+        {
+            "id": 51,
+            "title": "Blackberry Keyone Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/1100/10995125452850.jpg/format:webp",
+            "createdDate": "2021-04-24T22:35:33.000Z",
+            "brand": "Blackberry",
+            "color": "Koyu Yeşil",
+            "listing_price": 114.2,
+            "sale_price": 114.2
+        },
+        {
+            "id": 52,
+            "title": "Apple iPhone 7 Plus Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990879670322.jpg/format:webp",
+            "createdDate": "2020-08-22T06:43:15.000Z",
+            "brand": "Apple",
+            "color": "Sarı",
+            "listing_price": 190.4,
+            "sale_price": 184.69
+        },
+        {
+            "id": 53,
+            "title": "LG Velvet 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990883602482.jpg/format:webp",
+            "createdDate": "2021-04-18T06:51:34.000Z",
+            "brand": "LG",
+            "color": "Mavi",
+            "listing_price": 171.2,
+            "sale_price": 171.2
+        },
+        {
+            "id": 54,
+            "title": "Xiaomi Poco F3 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10383382249522.jpg/format:webp",
+            "createdDate": "2021-03-04T23:03:26.000Z",
+            "brand": "Xiaomi",
+            "color": "Turuncu",
+            "listing_price": 177.6,
+            "sale_price": 177.6
+        },
+        {
+            "id": 55,
+            "title": "Blackberry Z30 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10378895523890.jpg/format:webp",
+            "createdDate": "2021-02-19T22:43:50.000Z",
+            "brand": "Blackberry",
+            "color": "Siyah",
+            "listing_price": 191.6,
+            "sale_price": 191.6
+        },
+        {
+            "id": 56,
+            "title": "Apple iPhone 7 Plus Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990883602482.jpg/format:webp",
+            "createdDate": "2020-08-19T04:20:49.000Z",
+            "brand": "Apple",
+            "color": "Koyu Yeşil",
+            "listing_price": 52.6,
+            "sale_price": 44.18
+        },
+        {
+            "id": 57,
+            "title": "Xiaomi Mi 11 Ultra Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10383382020146.jpg/format:webp",
+            "createdDate": "2020-08-19T06:36:19.000Z",
+            "brand": "Xiaomi",
+            "color": "Koyu Yeşil",
+            "listing_price": 188,
+            "sale_price": 150.4
+        },
+        {
+            "id": 58,
+            "title": "Xiaomi Poco X3 Pro Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10378895523890.jpg/format:webp",
+            "createdDate": "2020-11-13T20:20:56.000Z",
+            "brand": "Xiaomi",
+            "color": "Lacivert",
+            "listing_price": 135.4,
+            "sale_price": 135.4
+        },
+        {
+            "id": 59,
+            "title": "Samsung Galaxy S21 Ultra 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10383382249522.jpg/format:webp",
+            "createdDate": "2020-08-08T02:27:13.000Z",
+            "brand": "Samsung",
+            "color": "Haki",
+            "listing_price": 156.8,
+            "sale_price": 139.55
+        },
+        {
+            "id": 60,
+            "title": "Huawei Mate 40 Pro Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/47/1100/10904392040498.jpg/format:webp",
+            "createdDate": "2020-09-15T08:52:32.000Z",
+            "brand": "Huawei",
+            "color": "Lila",
+            "listing_price": 107.4,
+            "sale_price": 107.4
+        },
+        {
+            "id": 61,
+            "title": "Huawei P30 Pro Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/47/1100/10904392040498.jpg/format:webp",
+            "createdDate": "2020-07-18T02:38:00.000Z",
+            "brand": "Huawei",
+            "color": "Siyah",
+            "listing_price": 139.4,
+            "sale_price": 139.4
+        },
+        {
+            "id": 62,
+            "title": "Nokia X10 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/40/550/10653668933682.jpg/format:webp",
+            "createdDate": "2020-06-11T06:39:00.000Z",
+            "brand": "Nokia",
+            "color": "Koyu Yeşil",
+            "listing_price": 143.4,
+            "sale_price": 143.4
+        },
+        {
+            "id": 63,
+            "title": "Apple iPhone 7 Plus Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10383382020146.jpg/format:webp",
+            "createdDate": "2021-01-03T00:59:54.000Z",
+            "brand": "Apple",
+            "color": "Kırmızı",
+            "listing_price": 20.8,
+            "sale_price": 20.8
+        },
+        {
+            "id": 64,
+            "title": "Nokia 5.4 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/1100/10986386325554.jpg/format:webp",
+            "createdDate": "2020-05-29T08:55:19.000Z",
+            "brand": "Nokia",
+            "color": "Su Yeşili",
+            "listing_price": 33,
+            "sale_price": 24.75
+        },
+        {
+            "id": 65,
+            "title": "Apple iPhone 7 Plus Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10378886938674.jpg/format:webp",
+            "createdDate": "2021-02-01T20:47:38.000Z",
+            "brand": "Apple",
+            "color": "Kırmızı",
+            "listing_price": 185.6,
+            "sale_price": 165.18
+        },
+        {
+            "id": 66,
+            "title": "Huawei P30 Pro Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990877311026.jpg/format:webp",
+            "createdDate": "2021-05-12T18:46:48.000Z",
+            "brand": "Huawei",
+            "color": "Su Yeşili",
+            "listing_price": 199.8,
+            "sale_price": 159.84
+        },
+        {
+            "id": 67,
+            "title": "Xiaomi Redmi K40 Gaming Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990883602482.jpg/format:webp",
+            "createdDate": "2021-04-15T00:04:29.000Z",
+            "brand": "Xiaomi",
+            "color": "Su Yeşili",
+            "listing_price": 34.2,
+            "sale_price": 34.2
+        },
+        {
+            "id": 68,
+            "title": "Blackberry Z30 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/1100/10995125452850.jpg/format:webp",
+            "createdDate": "2020-05-20T14:50:07.000Z",
+            "brand": "Blackberry",
+            "color": "Su Yeşili",
+            "listing_price": 198.4,
+            "sale_price": 198.4
+        },
+        {
+            "id": 69,
+            "title": "Samsung Galaxy Note 20 Ultra 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990874787890.jpg/format:webp",
+            "createdDate": "2020-09-11T00:31:23.000Z",
+            "brand": "Samsung",
+            "color": "Lila",
+            "listing_price": 92.2,
+            "sale_price": 92.2
+        },
+        {
+            "id": 70,
+            "title": "Blackberry Curve 8520 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/47/1100/10904392040498.jpg/format:webp",
+            "createdDate": "2020-07-10T13:52:33.000Z",
+            "brand": "Blackberry",
+            "color": "Mavi",
+            "listing_price": 26.4,
+            "sale_price": 26.4
+        },
+        {
+            "id": 71,
+            "title": "Blackberry Keyone Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990874787890.jpg/format:webp",
+            "createdDate": "2020-06-04T02:58:53.000Z",
+            "brand": "Blackberry",
+            "color": "Su Yeşili",
+            "listing_price": 46.8,
+            "sale_price": 46.8
+        },
+        {
+            "id": 72,
+            "title": "Nokia X20 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990874787890.jpg/format:webp",
+            "createdDate": "2021-01-08T17:00:36.000Z",
+            "brand": "Nokia",
+            "color": "Siyah",
+            "listing_price": 48,
+            "sale_price": 48
+        },
+        {
+            "id": 73,
+            "title": "Apple iPhone 7 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990879670322.jpg/format:webp",
+            "createdDate": "2020-11-20T04:29:26.000Z",
+            "brand": "Apple",
+            "color": "Siyah",
+            "listing_price": 121.2,
+            "sale_price": 121.2
+        },
+        {
+            "id": 74,
+            "title": "Samsung Galaxy S21 Ultra 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/47/550/10904391778354.jpg/format:webp",
+            "createdDate": "2020-09-12T21:12:03.000Z",
+            "brand": "Samsung",
+            "color": "Mavi",
+            "listing_price": 77,
+            "sale_price": 77
+        },
+        {
+            "id": 75,
+            "title": "Blackberry Bold 9700 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990874787890.jpg/format:webp",
+            "createdDate": "2020-07-24T18:06:08.000Z",
+            "brand": "Blackberry",
+            "color": "Turuncu",
+            "listing_price": 94.6,
+            "sale_price": 75.68
+        },
+        {
+            "id": 76,
+            "title": "Apple iPhone 11 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/1100/10986386554930.jpg/format:webp",
+            "createdDate": "2020-05-30T02:38:37.000Z",
+            "brand": "Apple",
+            "color": "Haki",
+            "listing_price": 184.6,
+            "sale_price": 184.6
+        },
+        {
+            "id": 77,
+            "title": "Huawei P30 Pro Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/1100/10986386554930.jpg/format:webp",
+            "createdDate": "2020-09-23T23:15:49.000Z",
+            "brand": "Huawei",
+            "color": "Sarı",
+            "listing_price": 68.4,
+            "sale_price": 68.4
+        },
+        {
+            "id": 78,
+            "title": "Apple iPhone 7 Plus Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/40/550/10653668933682.jpg/format:webp",
+            "createdDate": "2021-01-30T03:27:59.000Z",
+            "brand": "Apple",
+            "color": "Koyu Yeşil",
+            "listing_price": 107,
+            "sale_price": 107
+        },
+        {
+            "id": 79,
+            "title": "Xiaomi Redmi K40 Gaming Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10365176479794.jpg/format:webp",
+            "createdDate": "2020-10-22T22:19:08.000Z",
+            "brand": "Xiaomi",
+            "color": "Lacivert",
+            "listing_price": 52.6,
+            "sale_price": 52.6
+        },
+        {
+            "id": 80,
+            "title": "Nokia 3.4 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10383382249522.jpg/format:webp",
+            "createdDate": "2020-08-23T21:13:26.000Z",
+            "brand": "Nokia",
+            "color": "Sarı",
+            "listing_price": 109.8,
+            "sale_price": 94.43
+        },
+        {
+            "id": 81,
+            "title": "Apple iPhone 12 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/40/550/10653668933682.jpg/format:webp",
+            "createdDate": "2020-08-07T02:41:05.000Z",
+            "brand": "Apple",
+            "color": "Su Yeşili",
+            "listing_price": 149.2,
+            "sale_price": 149.2
+        },
+        {
+            "id": 82,
+            "title": "Huawei P30 Pro Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/1100/10986385866802.jpg/format:webp",
+            "createdDate": "2021-01-19T08:44:26.000Z",
+            "brand": "Huawei",
+            "color": "Sarı",
+            "listing_price": 87.6,
+            "sale_price": 87.6
+        },
+        {
+            "id": 83,
+            "title": "Samsung Galaxy A72 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990874787890.jpg/format:webp",
+            "createdDate": "2020-11-12T15:28:05.000Z",
+            "brand": "Samsung",
+            "color": "Kırmızı",
+            "listing_price": 198,
+            "sale_price": 154.44
+        },
+        {
+            "id": 84,
+            "title": "Apple iPhone 7 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990874787890.jpg/format:webp",
+            "createdDate": "2020-12-30T14:47:25.000Z",
+            "brand": "Apple",
+            "color": "Lacivert",
+            "listing_price": 74.8,
+            "sale_price": 62.83
+        },
+        {
+            "id": 85,
+            "title": "Huawei P40 Pro Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10378895523890.jpg/format:webp",
+            "createdDate": "2021-01-21T09:37:09.000Z",
+            "brand": "Huawei",
+            "color": "Sarı",
+            "listing_price": 151.8,
+            "sale_price": 151.8
+        },
+        {
+            "id": 86,
+            "title": "Apple iPhone 12 Pro Max Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/47/1100/10904392040498.jpg/format:webp",
+            "createdDate": "2020-10-17T11:31:20.000Z",
+            "brand": "Apple",
+            "color": "Haki",
+            "listing_price": 149.2,
+            "sale_price": 149.2
+        },
+        {
+            "id": 87,
+            "title": "Apple iPhone 12 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10383382183986.jpg/format:webp",
+            "createdDate": "2020-09-23T06:03:58.000Z",
+            "brand": "Apple",
+            "color": "Lila",
+            "listing_price": 143.4,
+            "sale_price": 121.89
+        },
+        {
+            "id": 88,
+            "title": "Huawei nove 8 Pro 4G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/1100/10383382282290.jpg/format:webp",
+            "createdDate": "2021-01-29T14:50:34.000Z",
+            "brand": "Huawei",
+            "color": "Turuncu",
+            "listing_price": 74.6,
+            "sale_price": 74.6
+        },
+        {
+            "id": 89,
+            "title": "Xiaomi Poco F3 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10378886938674.jpg/format:webp",
+            "createdDate": "2020-07-22T17:13:37.000Z",
+            "brand": "Xiaomi",
+            "color": "Mavi",
+            "listing_price": 149.8,
+            "sale_price": 149.8
+        },
+        {
+            "id": 90,
+            "title": "LG W41 Pro Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10378895523890.jpg/format:webp",
+            "createdDate": "2021-02-01T22:34:55.000Z",
+            "brand": "LG",
+            "color": "Lacivert",
+            "listing_price": 158.6,
+            "sale_price": 158.6
+        },
+        {
+            "id": 91,
+            "title": "Huawei P40 Pro Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10378886938674.jpg/format:webp",
+            "createdDate": "2021-03-22T18:35:09.000Z",
+            "brand": "Huawei",
+            "color": "Kırmızı",
+            "listing_price": 100.2,
+            "sale_price": 100.2
+        },
+        {
+            "id": 92,
+            "title": "LG V60 ThinQ 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/33/550/10424610488370.jpg/format:webp",
+            "createdDate": "2021-02-16T16:39:03.000Z",
+            "brand": "LG",
+            "color": "Mavi",
+            "listing_price": 122.6,
+            "sale_price": 114.02
+        },
+        {
+            "id": 93,
+            "title": "Huawei nove 8 Pro 4G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990883602482.jpg/format:webp",
+            "createdDate": "2020-08-13T10:24:26.000Z",
+            "brand": "Huawei",
+            "color": "Gri",
+            "listing_price": 82.8,
+            "sale_price": 82.8
+        },
+        {
+            "id": 94,
+            "title": "Apple iPhone 12 Pro Max Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/40/550/10653668933682.jpg/format:webp",
+            "createdDate": "2020-12-16T15:49:04.000Z",
+            "brand": "Apple",
+            "color": "Sarı",
+            "listing_price": 163.6,
+            "sale_price": 152.15
+        },
+        {
+            "id": 95,
+            "title": "Nokia X10 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10383382249522.jpg/format:webp",
+            "createdDate": "2021-03-30T08:29:15.000Z",
+            "brand": "Nokia",
+            "color": "Su Yeşili",
+            "listing_price": 70.8,
+            "sale_price": 70.8
+        },
+        {
+            "id": 96,
+            "title": "Apple iPhone 12 Pro Max Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/47/550/10904391778354.jpg/format:webp",
+            "createdDate": "2020-12-19T19:09:19.000Z",
+            "brand": "Apple",
+            "color": "Turuncu",
+            "listing_price": 124.4,
+            "sale_price": 124.4
+        },
+        {
+            "id": 97,
+            "title": "Blackberry Z30 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/40/550/10653577871410.jpg/format:webp",
+            "createdDate": "2020-07-05T08:29:04.000Z",
+            "brand": "Blackberry",
+            "color": "Fıstık Yeşili",
+            "listing_price": 61.8,
+            "sale_price": 61.8
+        },
+        {
+            "id": 98,
+            "title": "Blackberry Bold 9700 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10378886938674.jpg/format:webp",
+            "createdDate": "2020-06-22T01:06:00.000Z",
+            "brand": "Blackberry",
+            "color": "Haki",
+            "listing_price": 131.6,
+            "sale_price": 131.6
+        },
+        {
+            "id": 99,
+            "title": "Blackberry Bold 9700 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/1100/10986385866802.jpg/format:webp",
+            "createdDate": "2021-02-19T11:22:56.000Z",
+            "brand": "Blackberry",
+            "color": "Lacivert",
+            "listing_price": 125.4,
+            "sale_price": 125.4
+        },
+        {
+            "id": 100,
+            "title": "LG Wing 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990877311026.jpg/format:webp",
+            "createdDate": "2020-10-20T07:53:10.000Z",
+            "brand": "LG",
+            "color": "Kırmızı",
+            "listing_price": 129.2,
+            "sale_price": 114.99
+        },
+        {
+            "id": 101,
+            "title": "Huawei nova 7i Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990882029618.jpg/format:webp",
+            "createdDate": "2021-03-12T05:57:32.000Z",
+            "brand": "Huawei",
+            "color": "Kırmızı",
+            "listing_price": 169.8,
+            "sale_price": 161.31
+        },
+        {
+            "id": 102,
+            "title": "Huawei nove 8 Pro 4G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/47/550/10904391778354.jpg/format:webp",
+            "createdDate": "2020-09-25T23:59:16.000Z",
+            "brand": "Huawei",
+            "color": "Haki",
+            "listing_price": 107.2,
+            "sale_price": 107.2
+        },
+        {
+            "id": 103,
+            "title": "LG Velvet 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/1100/10986385866802.jpg/format:webp",
+            "createdDate": "2020-11-07T07:57:55.000Z",
+            "brand": "LG",
+            "color": "Kırmızı",
+            "listing_price": 156,
+            "sale_price": 141.96
+        },
+        {
+            "id": 104,
+            "title": "Samsung Galaxy A52 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10365176479794.jpg/format:webp",
+            "createdDate": "2020-11-15T06:06:54.000Z",
+            "brand": "Samsung",
+            "color": "Turuncu",
+            "listing_price": 109,
+            "sale_price": 109
+        },
+        {
+            "id": 105,
+            "title": "Nokia X10 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990883602482.jpg/format:webp",
+            "createdDate": "2021-02-12T17:52:53.000Z",
+            "brand": "Nokia",
+            "color": "Sarı",
+            "listing_price": 134.2,
+            "sale_price": 122.12
+        },
+        {
+            "id": 106,
+            "title": "Blackberry Bold 9700 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990874787890.jpg/format:webp",
+            "createdDate": "2020-07-18T02:39:55.000Z",
+            "brand": "Blackberry",
+            "color": "Lacivert",
+            "listing_price": 192.6,
+            "sale_price": 167.56
+        },
+        {
+            "id": 107,
+            "title": "Huawei P40 Pro Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10378886938674.jpg/format:webp",
+            "createdDate": "2021-04-17T21:04:02.000Z",
+            "brand": "Huawei",
+            "color": "Koyu Yeşil",
+            "listing_price": 98.6,
+            "sale_price": 94.66
+        },
+        {
+            "id": 108,
+            "title": "Apple iPhone 12 Pro Max Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10378895654962.jpg/format:webp",
+            "createdDate": "2021-04-30T05:03:39.000Z",
+            "brand": "Apple",
+            "color": "Mavi",
+            "listing_price": 43.6,
+            "sale_price": 37.5
+        },
+        {
+            "id": 109,
+            "title": "LG Wing 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990877311026.jpg/format:webp",
+            "createdDate": "2020-11-22T01:39:16.000Z",
+            "brand": "LG",
+            "color": "Su Yeşili",
+            "listing_price": 179.2,
+            "sale_price": 179.2
+        },
+        {
+            "id": 110,
+            "title": "Samsung Galaxy S21 Ultra 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/1100/10986386096178.jpg/format:webp",
+            "createdDate": "2020-06-16T18:15:00.000Z",
+            "brand": "Samsung",
+            "color": "Siyah",
+            "listing_price": 179.2,
+            "sale_price": 179.2
+        },
+        {
+            "id": 111,
+            "title": "Nokia 3.4 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990879670322.jpg/format:webp",
+            "createdDate": "2020-08-01T11:26:37.000Z",
+            "brand": "Nokia",
+            "color": "Koyu Yeşil",
+            "listing_price": 32.8,
+            "sale_price": 25.26
+        },
+        {
+            "id": 112,
+            "title": "Huawei nova 7i Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990877311026.jpg/format:webp",
+            "createdDate": "2020-07-25T14:13:55.000Z",
+            "brand": "Huawei",
+            "color": "Haki",
+            "listing_price": 43.6,
+            "sale_price": 43.6
+        },
+        {
+            "id": 113,
+            "title": "Huawei P30 Pro Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/47/1100/10904392040498.jpg/format:webp",
+            "createdDate": "2020-06-24T01:53:54.000Z",
+            "brand": "Huawei",
+            "color": "Lila",
+            "listing_price": 61.6,
+            "sale_price": 61.6
+        },
+        {
+            "id": 114,
+            "title": "LG Wing 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990877311026.jpg/format:webp",
+            "createdDate": "2020-11-09T01:52:41.000Z",
+            "brand": "LG",
+            "color": "Turuncu",
+            "listing_price": 113,
+            "sale_price": 113
+        },
+        {
+            "id": 115,
+            "title": "Xiaomi Mi 11 Ultra Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990879670322.jpg/format:webp",
+            "createdDate": "2021-01-24T22:15:31.000Z",
+            "brand": "Xiaomi",
+            "color": "Su Yeşili",
+            "listing_price": 171.8,
+            "sale_price": 154.62
+        },
+        {
+            "id": 116,
+            "title": "LG Wing 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990882029618.jpg/format:webp",
+            "createdDate": "2020-09-06T05:51:27.000Z",
+            "brand": "LG",
+            "color": "Kırmızı",
+            "listing_price": 152.4,
+            "sale_price": 134.11
+        },
+        {
+            "id": 117,
+            "title": "Samsung Galaxy S21 Ultra 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990877311026.jpg/format:webp",
+            "createdDate": "2020-11-10T23:18:38.000Z",
+            "brand": "Samsung",
+            "color": "Haki",
+            "listing_price": 128.8,
+            "sale_price": 128.8
+        },
+        {
+            "id": 118,
+            "title": "LG Wing 5G Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/49/550/10990883602482.jpg/format:webp",
+            "createdDate": "2020-08-11T13:53:11.000Z",
+            "brand": "LG",
+            "color": "Fıstık Yeşili",
+            "listing_price": 57.2,
+            "sale_price": 55.48
+        },
+        {
+            "id": 119,
+            "title": "Blackberry Keyone Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10383382249522.jpg/format:webp",
+            "createdDate": "2020-07-11T09:29:15.000Z",
+            "brand": "Blackberry",
+            "color": "Siyah",
+            "listing_price": 108.6,
+            "sale_price": 108.6
+        },
+        {
+            "id": 120,
+            "title": "Apple iPhone 12 Telefon Kabı",
+            "showcasePhoto": "https://productimages.hepsiburada.net/s/32/550/10383382249522.jpg/format:webp",
+            "createdDate": "2021-03-30T18:21:56.000Z",
+            "brand": "Apple",
+            "color": "Mavi",
+            "listing_price": 88,
+            "sale_price": 88
+        }
+    ]
+}
