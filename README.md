@@ -4,7 +4,29 @@ Developed a search page for Hepsiburada.
 
 ## Getting Started
 
+Fork/download/clone this Repo.
+
 There are two different ways to run the application:
+
+### With React Scripts
+
+Install the required dependencies:
+
+```
+yarn install
+```
+
+Run the application with the following code:
+
+```
+npm start
+```
+
+or
+
+```
+yarn start
+```
 
 ### With Docker
 
