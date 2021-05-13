@@ -1,6 +1,8 @@
 # hepsiburada-case
 
-Hepsiburada case study
+Developed a search page for Hepsiburada.
+
+## Getting Started
 
 To run the application:
 
