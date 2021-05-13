@@ -1,19 +1,12 @@
 // @ts-nocheck
 /* eslint-disable import/no-anonymous-default-export */
-import { createStore, applyMiddleware, compose } from "redux";
-import promise from "redux-promise-middleware";
-import thunk from "redux-thunk";
+import { createStore, compose } from "redux";
 
 import rootReducer from "./reducers";
 const initialState = {};
-const middleware = [thunk, promise];
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 export default () => {
-  const store = createStore(
-    rootReducer,
-    initialState,
-    composeEnhancers(applyMiddleware(...middleware))
-  );
+  const store = createStore(rootReducer, initialState, composeEnhancers());
   return store;
 };
