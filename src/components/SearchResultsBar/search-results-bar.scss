@@ -1,0 +1,42 @@
+@import "../../styles/variables.scss";
+@import "../../styles/placeholders.scss";
+
+.search-results-bar {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  &-title {
+    color: $colorCharcoal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 5px;
+  }
+  &-subtitle {
+    color: $colorDarkGrey;
+    font-size: 18px;
+
+    &-text {
+      color: $colorBlack;
+    }
+  }
+  &__sort-by {
+    &-dropdown {
+      width: 120px;
+      height: 48px;
+
+      font-size: 17px;
+
+      color: $colorDarkGrey;
+      border: 1px solid $colorDarkGrey;
+
+      cursor: pointer;
+      padding-left: 18px;
+      border-radius: 5px;
+
+      //background: url("/static/dropdown-icon.png") no-repeat right $colorWhite;
+      -webkit-appearance: none;
+      background-position-x: 95px;
+    }
+  }
+}

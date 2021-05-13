@@ -1,23 +1,49 @@
 import {
-    SORT_PRICE_ASCENDING,
-    SORT_PRICE_DESCENDING,
-    SORT_DATE_ASCENDING,
-    SORT_DATE_DESCENDING,
-    SET_FILTER
-} from '../../../app-consts';
+  GET_ALL_PRODUCTS,
+  FILTER_BY_SEARCH,
+  FILTER_BY_CATEGORY,
+  SORT_BY_FILTER,
+  SET_PAGE,
+  SET_FILTERING_CATEGORIES,
+} from "../../../app-consts";
 
-/*
-export const addToCart = product => {
-  delete product.badges;
+export const getAllProducts = (products) => {
   return {
-    type: ADD_TO_CART,
-    payload: product
+    type: GET_ALL_PRODUCTS,
+    payload: products,
   };
 };
-export const removeFromCart = product => {
+
+export const setFilteringCategories = () => {
   return {
-    type: REMOVE_FROM_CART,
-    payload: product.id,
+    type: SET_FILTERING_CATEGORIES,
   };
 };
-*/
+
+export const filterBySearch = (text) => {
+  return {
+    type: FILTER_BY_SEARCH,
+    payload: text,
+  };
+};
+
+export const filterByCategory = (filters) => {
+  return {
+    type: FILTER_BY_CATEGORY,
+    payload: filters,
+  };
+};
+
+export const sortByFilter = (sortBy) => {
+  return {
+    type: SORT_BY_FILTER,
+    payload: sortBy,
+  };
+};
+
+export const setPage = (page) => {
+  return {
+    type: SET_PAGE,
+    payload: page,
+  };
+};

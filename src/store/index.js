@@ -1,3 +1,5 @@
+// @ts-nocheck
+/* eslint-disable import/no-anonymous-default-export */
 import { createStore, applyMiddleware, compose } from "redux";
 import promise from "redux-promise-middleware";
 import thunk from "redux-thunk";

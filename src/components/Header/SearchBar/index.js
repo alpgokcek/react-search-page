@@ -1,7 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 
 import "./search-bar.scss";
+import { connect } from "react-redux";
+import { filterBySearch } from "../../../store/actions";
 
 const SearchBar = (props) => {
   const { placeholder } = props;
@@ -11,7 +13,9 @@ const SearchBar = (props) => {
     const input = e.target.value;
     setSearchText(input);
     if (input.length > 2) {
-      console.log(`searching ${input}`);
+      props.filterBySearch(input);
+    } else {
+      props.filterBySearch("");
     }
   };
   return (
@@ -26,6 +30,14 @@ const SearchBar = (props) => {
   );
 };
 
+const mapDispatchToProps = (dispatch) => {
+  return {
+    filterBySearch: (text) => {
+      dispatch(filterBySearch(text));
+    },
+  };
+};
+
 SearchBar.propTypes = {
   placeholder: PropTypes.string,
 };
@@ -34,4 +46,4 @@ SearchBar.defaultProps = {
   placeholder: "Arama yap",
 };
 
-export default SearchBar;
+export default connect(null, mapDispatchToProps)(SearchBar);

@@ -1,19 +1,14 @@
-import {
-    ADD_TO_CART,
-    REMOVE_FROM_CART
-} from '../../../app-consts';
+import { ADD_TO_CART, REMOVE_FROM_CART } from "../../../app-consts";
 
-
-export const addToCart = product => {
-  delete product.badges;
+export const addToCart = (product) => {
   return {
     type: ADD_TO_CART,
-    payload: product
+    payload: product,
   };
 };
-export const removeFromCart = product => {
+export const removeFromCart = (id) => {
   return {
     type: REMOVE_FROM_CART,
-    payload: product.id,
+    payload: id,
   };
 };
