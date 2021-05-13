@@ -27,7 +27,7 @@ function Paginator(props) {
     return (
       <div
         className="paginator-item"
-        onClick={() => handleSetPage(page)}
+        onClick={() => handleSetPage(page - 1)}
         key={index}
       >
         {page}

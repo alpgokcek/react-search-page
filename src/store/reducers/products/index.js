@@ -70,7 +70,7 @@ const productsReducer = (state = initialState, action) => {
           obj,
           product
         ) {
-          obj[product.color] = obj[product.color] || 1;
+          obj[product.color] = obj[product.color] || 0;
           obj[product.color] += 1;
           return obj;
         },
