@@ -1,8 +1,8 @@
 ![React.js](https://img.shields.io/badge/React.js-17-72147e?style=flat-square&logo=react&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-3.3.2-f21170?style=flat-square&logo=docker&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-14.4-fa9905?style=flat-square&logo=node.js&logoColor=white)
-![npm](https://img.shields.io/badge/npm-7.6-fa9905?style=flat-square&logo=npm&logoColor=white)
-![yarn](https://img.shields.io/badge/yarn-1.22.4-fa9905?style=flat-square&logo=yarn&logoColor=white)
+![npm](https://img.shields.io/badge/npm-7.6-ff5200?style=flat-square&logo=npm&logoColor=white)
+![yarn](https://img.shields.io/badge/yarn-1.22.4-72147e?style=flat-square&logo=yarn&logoColor=white)
 
 # hepsiburada-case
 
