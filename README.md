@@ -6,7 +6,13 @@ Developed a search page for Hepsiburada.
 
 Fork/download/clone this Repo.
 
-There are two different ways to run the application:
+Requirements:
+
+- Node v12 or higher (with npm) -> [https://nodejs.org/en/download](https://nodejs.org/en/download)
+- Yarn Package Manager -> Install yarn with npm: `npm install -g yarn`
+- Docker v3.3.2 or higher -> [https://www.docker.com/get-started](https://www.docker.com/get-started)
+
+  There are two different ways to run the application:
 
 ### With React Scripts
 
@@ -16,7 +22,7 @@ Install the required dependencies:
 yarn install
 ```
 
-Run the application with the following code:
+To run the application on port [http://localhost:3000](http://localhost:3000):
 
 ```
 npm start
