@@ -54,3 +54,17 @@ To stop the application:
 ```
 docker-compose stop
 ```
+
+## Building the Project
+
+To create an optimized production build:
+
+```
+npm run build
+```
+
+or
+
+```
+yarn build
+```
