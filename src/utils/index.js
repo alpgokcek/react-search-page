@@ -26,3 +26,6 @@ export const paginator = (arr) => {
 export const flattenArray = (arr) => {
   return [].concat.apply([], arr);
 };
+
+export const priceFormat = (value, suffix = "") =>
+  `${value.toFixed(2).replace(".", ",")} TL`;

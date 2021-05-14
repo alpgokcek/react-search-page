@@ -6,6 +6,7 @@ import cx from "classnames";
 import "./product-card.scss";
 import { connect } from "react-redux";
 import { addToCart } from "../../../store/actions";
+import { priceFormat } from "../../../utils";
 
 const ProductCard = (props) => {
   const { product, cart } = props;
@@ -17,9 +18,6 @@ const ProductCard = (props) => {
   );
   const isInCart = cart.some((product) => product.id === id);
   const [isMouseOver, setIsMouseOver] = useState(false);
-
-  const priceFormat = (value, suffix = "") =>
-    `${value.toFixed(2).replace(".", ",")} TL`;
 
   const handleMouseOver = (isOver) => {
     setIsMouseOver(isOver);
