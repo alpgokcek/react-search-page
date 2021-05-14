@@ -2,15 +2,18 @@
 @import "../../styles/placeholders.scss";
 
 .header {
-  @extend %wrapper;
-  background: $colorWhite;
   border-bottom: 1px solid $colorBlackBoxShadow;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  height: 96px;
   margin-bottom: 20px;
+
+  &__wrapper {
+    @extend %wrapper;
+    background: $colorWhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 96px;
+  }
   &__logo {
     height: 35px;
   }

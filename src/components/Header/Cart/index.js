@@ -63,7 +63,11 @@ const Cart = (props) => {
 
   const cartItems = cart?.map((product) => {
     return (
-      <div key={product.id} className="cart__container-item">
+      <div
+        key={product.id}
+        className="cart__container-item"
+        data-test="cart-item"
+      >
         <div className="cart__container-item-image">
           <Image
             src={product.showcasePhoto}
@@ -95,6 +99,7 @@ const Cart = (props) => {
         })}
         onMouseOver={() => handleMouseOver(true)}
         onMouseLeave={() => handleMouseOver(false)}
+        data-test="component-wrapper"
       >
         {cart.length > 0 && <div className="cart-count">{cart.length}</div>}
         <div

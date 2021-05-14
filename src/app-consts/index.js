@@ -1,3 +1,5 @@
+import * as testConsts from "./test-consts";
+
 export const GET_ALL_PRODUCTS = "GET_ALL_PRODUCTS";
 
 export const ADD_TO_CART = "ADD_TO_CART";
@@ -16,4 +18,8 @@ export const SORTING_FILTERS = {
   PRICE_DESCENDING: "En Yüksek Fiyat",
   NEWEST_FIRST: "En Yeniler (A-Z)",
   OLDEST_FIRST: "En Yeniler (Z-A)",
+};
+
+export const TEST_CASES = {
+  ...testConsts,
 };

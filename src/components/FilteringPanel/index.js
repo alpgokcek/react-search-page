@@ -27,7 +27,9 @@ const FilteringPanel = (props) => {
       ...activeFilters,
       color: activeFilters.color === color ? "" : color,
     });
-  const handleSortBy = (sortBy) => props.sortByFilter(sortBy);
+
+  const handleSortBy = (sortBy) =>
+    props.sortByFilter(filters.sortBy === sortBy ? "" : sortBy);
 
   const brandItems =
     brandsList &&

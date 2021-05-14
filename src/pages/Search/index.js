@@ -16,12 +16,12 @@ const Search = (props) => {
   }, []);
 
   return (
-    <Layout>
+    <Layout data-test="search-page-wrapper">
       <>
-        <SearchResultsBar />
+        <SearchResultsBar data-test="search-results-bar-component" />
         <div className="search__container">
-          <FilteringPanel />
-          <Products />
+          <FilteringPanel data-test="filtering-panel-component" />
+          <Products data-test="products-component" />
         </div>
       </>
     </Layout>

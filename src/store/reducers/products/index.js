@@ -4,34 +4,10 @@ import {
   FILTER_BY_CATEGORY,
   SORT_BY_FILTER,
   SET_FILTERING_CATEGORIES,
-  SORTING_FILTERS,
   SET_PAGE,
 } from "../../../app-consts";
 
-const sorter = (sortBy) => (a, b) => {
-  const sortingCriteria = SORTING_FILTERS[sortBy];
-  if (SORTING_FILTERS.NEWEST_FIRST === sortingCriteria) {
-    return a.createdDate < b.createdDate ? 1 : -1;
-  } else if (SORTING_FILTERS.OLDEST_FIRST === sortingCriteria) {
-    return a.createdDate > b.createdDate ? 1 : -1;
-  } else if (SORTING_FILTERS.PRICE_ASCENDING === sortingCriteria) {
-    return a.salePrice > b.salePrice ? 1 : -1;
-  } else if (SORTING_FILTERS.PRICE_DESCENDING === sortingCriteria) {
-    return a.salePrice < b.salePrice ? 1 : -1;
-  }
-  return 1;
-};
-
-const paginator = (arr) => {
-  return arr.reduce(
-    (r, e, i) => (i % 12 ? r[r.length - 1].push(e) : r.push([e])) && r,
-    []
-  );
-};
-
-const flattenArray = (arr) => {
-  return [].concat.apply([], arr);
-};
+import { flattenArray, paginator, sorter } from "../../../utils";
 
 const initialState = {
   allProducts: JSON.parse(localStorage.getItem("products")) || [],
@@ -103,27 +79,29 @@ const productsReducer = (state = initialState, action) => {
       return {
         ...state,
         filteredProducts: paginator(
-          state.allProducts.filter(
-            (product) =>
-              product.title
-                .toLowerCase()
-                .includes(state.filters.searchText.toLowerCase()) &&
-              (!!action.payload.brand
-                ? action.payload.brand === product.brand
-                : true) &&
-              (!!action.payload.color
-                ? action.payload.color === product.color
-                : true)
-          )
+          [...state.allProducts]
+            .filter(
+              (product) =>
+                product.title
+                  .toLowerCase()
+                  .includes(state.filters.searchText.toLowerCase()) &&
+                (!!action.payload.brand
+                  ? action.payload.brand === product.brand
+                  : true) &&
+                (!!action.payload.color
+                  ? action.payload.color === product.color
+                  : true)
+            )
+            .sort(sorter(state.filters.sortBy))
         ),
         filters: { ...state.filters, ...action.payload, currentPage: 0 },
       };
     case SORT_BY_FILTER:
       return {
         ...state,
-        filteredProducts: [
-          ...state.filteredProducts.sort(sorter(action.payload)),
-        ],
+        filteredProducts: paginator(
+          flattenArray(state.filteredProducts).sort(sorter(action.payload))
+        ),
         filters: { ...state.filters, sortBy: action.payload },
       };
     case SET_PAGE:
