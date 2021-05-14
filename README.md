@@ -1,66 +1,85 @@
+![React.js](https://img.shields.io/badge/React.js-17-72147e?style=flat-square&logo=react&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-3.3.2-f21170?style=flat-square&logo=docker&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-14.4-fa9905?style=flat-square&logo=node.js&logoColor=white)
+![npm](https://img.shields.io/badge/npm-7.6-fa9905?style=flat-square&logo=npm&logoColor=white)
+![yarn](https://img.shields.io/badge/yarn-1.22.4-fa9905?style=flat-square&logo=yarn&logoColor=white)
+
 # hepsiburada-case
 
-Developed a search page for Hepsiburada.
+Search page implementation for Hepsiburada Case Study. Application is deployed to Heroku and could be found on [hepsiburada-search.herokuapp.com](https://hepsiburada-search.herokuapp.com).
 
-# Getting Started
+<br/>
 
-Fork/download/clone this Repo.
+## Getting Started
 
-Requirements:
+<hr/>
 
-- Node v12 or higher (with npm) -> [https://nodejs.org/en/download](https://nodejs.org/en/download)
+### Requirements:
+
+<hr/>
+
+- Node v12 or higher (with npm) -> [Node.js Downloads Page](https://nodejs.org/en/download)
 - Yarn Package Manager -> Install yarn with npm: `npm install -g yarn`
-- Docker v3.3.2 or higher (optional) -> [https://www.docker.com/get-started](https://www.docker.com/get-started)
-
-  There are two different ways to run the application:
+- Docker v3.3.2 or higher (optional) -> [Docker Get Started Page](https://www.docker.com/get-started)
   <br/>
   <br/>
+  Before starting the application, fork/download/clone this repo. There are two different ways to run the application:
 
-## With React Scripts
+### With React Scripts
 
-Install the required dependencies:
+<hr/>
+
+- Install the required dependencies:
 
 ```
 yarn install
 ```
 
-To run the application in dev mode on port [http://localhost:3000](http://localhost:3000):
+- To run the application in dev mode on [localhost:3000](http://localhost:3000):
 
 ```
 yarn start
 ```
 
-To run the application with the production build on port [http://localhost:8081](http://localhost:8081):
+- To run the application with the production build on [localhost:8081](http://localhost:8081):
 
 ```
 yarn build  # producing a production build
 yarn run server  # running the server
 ```
 
+<br/>
+
 ### With Docker
 
-Build the docker image with the following code:
+<hr/>
+
+- Build the docker image with the following code:
 
 ```
 ./docker-build.sh  # for mac users
 ./docker-build.bat  # for windows users
 ```
 
-To run the application on port [http://localhost:8081](http://localhost:8081):
+- To run the application on [localhost:8081](http://localhost:8081):
 
 ```
 docker-compose up -d --build
 ```
 
-To stop the application:
+- To stop the application:
 
 ```
 docker-compose stop
 ```
 
+<br/>
+
 ## Building the Project
 
-To create an optimized production build:
+<hr/>
+
+- To create an optimized production build:
 
 ```
 npm run build
@@ -71,3 +90,25 @@ or
 ```
 yarn build
 ```
+
+<br/>
+
+## Contact Information
+
+<hr/>
+
+#### Author: Alp Gökçek
+
+#### Github: alpgokcek
+
+#### Email: alp.gokcek1@gmail.com
+
+#### Date: May, 2021
+
+<br/>
+
+## License
+
+<hr/>
+
+[MIT](https://choosealicense.com/licenses/mit/)
