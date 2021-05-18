@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useRef, useEffect} from "react";
 import PropTypes from "prop-types";
 import cx from "classnames";
 
@@ -8,6 +8,23 @@ function SelectBox(props) {
   const { persistPlaceholder, placeholder, options, value } = props;
 
   const [showDropdown, setShowDropdown] = React.useState(false);
+
+  const useClickOutside = (ref, callback) => {
+    const handleClick = e => {
+      if (ref.current && !ref.current.contains(e.target)) {
+        callback();
+      }
+    };
+    useEffect(() => {
+      document.addEventListener('click', handleClick);
+      return () => {
+        document.removeEventListener('click', handleClick);
+      };
+    });
+  };
+
+  const ref = useRef();
+  useClickOutside(ref, ()=>setShowDropdown(false));
 
   const handleClick = (e, value = "") => {
     showDropdown && props.onChange(value);
@@ -31,7 +48,7 @@ function SelectBox(props) {
   });
 
   return (
-    <div className="select-box">
+    <div className="select-box" ref={ref}>
       <div
         className="select-box__button"
         data-test="selectbox-button"
