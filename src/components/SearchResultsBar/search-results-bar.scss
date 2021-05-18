@@ -24,17 +24,12 @@
     &-dropdown {
       width: 120px;
       height: 48px;
-
       font-size: 17px;
-
       color: $colorDarkGrey;
       border: 1px solid $colorDarkGrey;
-
       cursor: pointer;
       padding-left: 18px;
       border-radius: 5px;
-
-      //background: url("/static/dropdown-icon.png") no-repeat right $colorWhite;
       -webkit-appearance: none;
       background-position-x: 95px;
     }
