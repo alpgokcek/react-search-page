@@ -6,7 +6,7 @@
 
 # hepsiburada-search
 
-Search page implementation for Hepsiburada Case Study. Application is deployed to Heroku and could be found on [hepsiburada-search.herokuapp.com](https://hepsiburada-search.herokuapp.com).
+Non-responsive search page implementation for Hepsiburada Case Study. Application is deployed to Heroku and could be found on [hepsiburada-search.herokuapp.com](https://hepsiburada-search.herokuapp.com).
 
 ## Table of Contents:
 
