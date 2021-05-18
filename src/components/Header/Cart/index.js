@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { removeFromCart } from "../../../store/actions";
@@ -11,8 +11,8 @@ import "./cart.scss";
 const Cart = (props) => {
   const { cart } = props;
 
-  const [showDropdown, setShowDropdown] = useState(false);
-  const [modalState, setModalState] = useState({
+  const [showDropdown, setShowDropdown] = React.useState(false);
+  const [modalState, setModalState] = React.useState({
     visible: false,
     productId: null,
   });
@@ -47,12 +47,14 @@ const Cart = (props) => {
           <div
             className="cart__modal-cta cart__modal-cta-success"
             onClick={handleRemoveFromCart}
+            data-test="cart-modal-accept"
           >
             EVET
           </div>
           <div
             className="cart__modal-cta cart__modal-cta-error"
             onClick={handleModalCancel}
+            data-test="cart-modal-decline"
           >
             HAYIR
           </div>
@@ -61,7 +63,7 @@ const Cart = (props) => {
     </Modal>
   );
 
-  const cartItems = cart?.map((product) => {
+  const cartItems = cart?.map((product, idx) => {
     return (
       <div
         key={product.id}
@@ -83,6 +85,7 @@ const Cart = (props) => {
           <div
             className="cart__container-item__box-button"
             onClick={() => onRemoveFromCart(product.id)}
+            data-test={`cart-remove-item-${idx}`}
           >
             Kaldır
           </div>
@@ -99,7 +102,7 @@ const Cart = (props) => {
         })}
         onMouseOver={() => handleMouseOver(true)}
         onMouseLeave={() => handleMouseOver(false)}
-        data-test="component-wrapper"
+        data-test="cart-wrapper"
       >
         {cart.length > 0 && <div className="cart-count">{cart.length}</div>}
         <div

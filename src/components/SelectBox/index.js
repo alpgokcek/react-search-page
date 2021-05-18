@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import cx from "classnames";
 
@@ -7,7 +7,7 @@ import "./select-box.scss";
 function SelectBox(props) {
   const { persistPlaceholder, placeholder, options, value } = props;
 
-  const [showDropdown, setShowDropdown] = useState(false);
+  const [showDropdown, setShowDropdown] = React.useState(false);
 
   const handleClick = (e, value = "") => {
     showDropdown && props.onChange(value);
@@ -22,6 +22,7 @@ function SelectBox(props) {
         })}
         key={index}
         value={item.value}
+        data-test="selectbox-dropdown-item"
         onClick={(e) => handleClick(e, item.value)}
       >
         {item.name}
@@ -33,6 +34,7 @@ function SelectBox(props) {
     <div className="select-box">
       <div
         className="select-box__button"
+        data-test="selectbox-button"
         onClick={(e) => setShowDropdown(!showDropdown)}
       >
         {persistPlaceholder ? placeholder : value}
@@ -43,7 +45,9 @@ function SelectBox(props) {
         />
       </div>
       {showDropdown && (
-        <ul className="select-box__dropdown">{dropdownItems}</ul>
+        <ul data-test="selectbox-dropdown" className="select-box__dropdown">
+          {dropdownItems}
+        </ul>
       )}
     </div>
   );
@@ -52,8 +56,8 @@ function SelectBox(props) {
 SelectBox.propTypes = {
   persistPlaceholder: PropTypes.bool,
   placeholder: PropTypes.string,
-  options: PropTypes.array,
-  onChange: PropTypes.func,
+  options: PropTypes.array.isRequired,
+  onChange: PropTypes.func.isRequired,
   value: PropTypes.string,
 };
 

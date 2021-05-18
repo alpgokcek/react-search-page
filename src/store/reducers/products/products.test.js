@@ -23,6 +23,8 @@ describe("unit tests for products reducer", () => {
     expect(productsReducer(undefined, {})).toEqual({
       ...PRODUCTS_INITIAL_STATE,
       filters: { ...PRODUCTS_INITIAL_STATE.filters, currentPage: 0 },
+      brands: {},
+      colors: {}
     });
   });
 

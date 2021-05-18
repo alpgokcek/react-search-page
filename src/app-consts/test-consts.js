@@ -13,6 +13,7 @@ export const MOCK_PRODUCTS = [
   MOCK_PRODUCT,
   {
     ...MOCK_PRODUCT,
+    id: 2,
     title: "product",
     brand: "apple",
     color: "red",
@@ -42,6 +43,10 @@ export const PRODUCTS_INITIAL_STATE = {
     sortBy: "",
     currentPage: 1,
   },
-  brands: {},
-  colors: {},
+  brands: {
+    samsung: "samsung",
+  },
+  colors: {
+    Sarı: "Sarı",
+  },
 };

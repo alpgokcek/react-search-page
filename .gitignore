@@ -4,9 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
-
 # testing
 /coverage
+*.js.snap
+__snapshots__/
 
 # production
 /build

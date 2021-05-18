@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 
 import "./search-bar.scss";
@@ -8,7 +8,7 @@ import { filterBySearch } from "../../../store/actions";
 const SearchBar = (props) => {
   const { placeholder } = props;
 
-  const [searchText, setSearchText] = useState("");
+  const [searchText, setSearchText] = React.useState("");
   const handleSearchText = (e) => {
     const input = e.target.value;
     setSearchText(input);
@@ -21,6 +21,7 @@ const SearchBar = (props) => {
   return (
     <div>
       <input
+        data-test="search-bar-input"
         className="search-bar"
         placeholder={placeholder}
         value={searchText}

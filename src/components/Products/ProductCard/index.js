@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import Image from "../../Image";
 import cx from "classnames";
@@ -17,7 +17,7 @@ const ProductCard = (props) => {
     ((listingPrice - salePrice) / listingPrice) * 100
   );
   const isInCart = cart.some((product) => product.id === id);
-  const [isMouseOver, setIsMouseOver] = useState(false);
+  const [isMouseOver, setIsMouseOver] = React.useState(false);
 
   const handleMouseOver = (isOver) => {
     setIsMouseOver(isOver);
@@ -26,6 +26,7 @@ const ProductCard = (props) => {
   return (
     <div
       key={id}
+      data-test="product-card-wrapper"
       className="product-card"
       onMouseOver={() => handleMouseOver(true)}
       onMouseLeave={() => handleMouseOver(false)}
@@ -54,6 +55,7 @@ const ProductCard = (props) => {
         {isMouseOver ? (
           <div className="product-card__product__actions">
             <button
+              data-test="product-card-add-to-cart"
               disabled={isInCart}
               onClick={(e) => props.addToCart(product)}
               className={cx("product-card__product__actions-button")}
@@ -95,7 +97,7 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 ProductCard.propTypes = {
-  product: PropTypes.object,
+  product: PropTypes.object.isRequired,
   isInCart: PropTypes.bool,
   cart: PropTypes.array,
 };

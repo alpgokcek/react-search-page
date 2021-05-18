@@ -4,8 +4,8 @@ import { connect } from "react-redux";
 import { sortByFilter } from "../../store/actions";
 import { SORTING_FILTERS } from "../../app-consts";
 
-import "./search-results-bar.scss";
 import SelectBox from "../SelectBox";
+import "./search-results-bar.scss";
 
 const SearchResultsBar = (props) => {
   const { filters } = props;

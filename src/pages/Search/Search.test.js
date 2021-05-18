@@ -1,10 +1,13 @@
 import React from "react";
 import Enzyme, { mount } from "enzyme";
 import EnzymeAdapter from "@wojtekmaj/enzyme-adapter-react-17";
-import Search from "./index";
+import toJson from "enzyme-to-json";
+
 import { Provider } from "react-redux";
 import { findByTestAttribute, mockStore } from "../../test";
 import { TEST_CASES } from "../../app-consts";
+
+import Search from "./index";
 
 Enzyme.configure({ adapter: new EnzymeAdapter() });
 
@@ -17,10 +20,13 @@ const setup = (initialState = {}, props) => {
   );
 };
 
-describe("unit tests for search page", () => {
+describe("unit and snapshot tests for search page", () => {
   let wrapper;
   beforeEach(() => {
     wrapper = setup({ cartReducer: { cart: TEST_CASES.MOCK_PRODUCTS } });
+  });
+  it("should render correctly", () => {
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
   it("should render non-empty component", () => {
     const inputComponent = findByTestAttribute(wrapper, "search-page-wrapper");

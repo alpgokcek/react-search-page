@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 
@@ -10,7 +10,7 @@ import "./filtering-panel.scss";
 
 const FilteringPanel = (props) => {
   const { filters, brandsList, colorsList } = props;
-  const [activeFilters, setActiveFilters] = useState({ brand: "", color: "" });
+  const [activeFilters, setActiveFilters] = React.useState({ brand: "", color: "" });
 
   useEffect(() => {
     props.filterByCategory(activeFilters);
@@ -37,6 +37,7 @@ const FilteringPanel = (props) => {
       return (
         <li
           key={brand}
+          data-test="filtering-panel-brand-item"
           className={cx("filtering-panel__category-list-item", {
             "filtering-panel__category-list-item--selected":
               activeFilters.brand,
@@ -52,6 +53,7 @@ const FilteringPanel = (props) => {
       return (
         <li
           key={color}
+          data-test="filtering-panel-color-item"
           className={cx("filtering-panel__category-list-item", {
             "filtering-panel__category-list-item--selected":
               activeFilters.color,
@@ -65,6 +67,7 @@ const FilteringPanel = (props) => {
     return (
       <li
         key={sort}
+        data-test="filtering-panel-sorting-item"
         className={cx("filtering-panel__category-list-item", {
           "filtering-panel__category-list-item--selected":
             filters.sortBy === sort,

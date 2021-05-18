@@ -1,4 +1,4 @@
-import { sorter, paginator, flattenArray } from "./index";
+import { sorter, paginator, flattenArray, priceFormat } from "./index";
 
 const a = { id: 1, salePrice: 1, createdDate: "2021-08-20T00:00:00.000Z" };
 const b = { id: 2, salePrice: 2, createdDate: "2020-08-20T00:00:00.000Z" };
@@ -49,5 +49,21 @@ describe("unit tests for flattenArray function", () => {
   ];
   it("should flatten array", () => {
     expect(flattenArray(arr)).toEqual([a, b, b, a]);
+  });
+});
+
+describe("unit tests for priceFormat function", () => {
+  const price = 19.23;
+
+  it("should return formatted price with default suffix", () => {
+    expect(priceFormat(price)).toEqual("19,23 TL");
+  });
+
+  it("should return formatted price with custom prefix", () => {
+    expect(priceFormat(price, "$", "")).toEqual("$19,23");
+  });
+
+  it("should return formatted price with custom suffix", () => {
+    expect(priceFormat(price, "", " €")).toEqual("19,23 €");
   });
 });

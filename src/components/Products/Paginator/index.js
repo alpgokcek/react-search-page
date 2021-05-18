@@ -10,7 +10,7 @@ function Paginator(props) {
   const pageCount = filteredProducts.length;
 
   const handleNext = () => {
-    pageCount >= currentPage + 1 && props.setPage(currentPage + 1);
+    pageCount > currentPage + 1 && props.setPage(currentPage + 1);
   };
 
   const handlePrevious = () => {
@@ -26,6 +26,7 @@ function Paginator(props) {
   const pageItems = pages.map((page, index) => {
     return (
       <div
+        data-test={`paginator-page-item-${index + 1}`}
         className="paginator-item"
         onClick={() => handleSetPage(page - 1)}
         key={index}
@@ -36,11 +37,19 @@ function Paginator(props) {
   });
   return (
     <div className="paginator">
-      <div className="paginator-item" onClick={handlePrevious}>
+      <div
+        data-test="paginator-previous"
+        className="paginator-item"
+        onClick={handlePrevious}
+      >
         {"<"}
       </div>
-      {pageItems}
-      <div className="paginator-item" onClick={handleNext}>
+      <span data-test="paginator-wrapper">{pageItems}</span>
+      <div
+        data-test="paginator-next"
+        className="paginator-item"
+        onClick={handleNext}
+      >
         {">"}
       </div>
     </div>

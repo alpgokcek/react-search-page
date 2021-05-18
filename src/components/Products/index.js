@@ -21,7 +21,9 @@ const Products = (props) => {
 
   return (
     <div>
-      <div className="products__cards">{productCards}</div>
+      <div data-test="products-card-wrapper" className="products__cards">
+        {productCards}
+      </div>
       <Paginator />
     </div>
   );
