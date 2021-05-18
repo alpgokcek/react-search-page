@@ -17,7 +17,8 @@
       &-item {
         color: $colorDimGrey;
         cursor: pointer;
-        margin-bottom: 8px;
+        font-size: 14px;
+        line-height: 24px;
         &:hover {
           color: $colorSafetyOrange;
         }

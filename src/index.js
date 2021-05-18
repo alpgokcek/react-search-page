@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./styles/index.scss";
 import SearchPage from "./pages/Search";
 import reportWebVitals from "./reportWebVitals";
 import { Provider } from "react-redux";
 import configureStore from "./store";
+
+import "./styles/index.scss";
 
 const store = configureStore();
 

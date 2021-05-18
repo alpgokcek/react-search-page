@@ -8,30 +8,16 @@
   &-title {
     color: $colorCharcoal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 32px;
+    font-size: 28px;
+    line-height: 28px;
     margin-bottom: 5px;
   }
   &-subtitle {
     color: $colorDarkGrey;
-    font-size: 18px;
+    font-size: 15px;
 
     &-text {
       color: $colorBlack;
-    }
-  }
-  &__sort-by {
-    &-dropdown {
-      width: 120px;
-      height: 48px;
-      font-size: 17px;
-      color: $colorDarkGrey;
-      border: 1px solid $colorDarkGrey;
-      cursor: pointer;
-      padding-left: 18px;
-      border-radius: 5px;
-      -webkit-appearance: none;
-      background-position-x: 95px;
     }
   }
 }

@@ -19,12 +19,15 @@ const Products = (props) => {
     return <ProductCard key={index} product={product} />;
   });
 
+  const isThereNoItems = filteredProducts[0]?.length === 0 || filteredProducts.length === 0
+
   return (
     <div>
       <div data-test="products-card-wrapper" className="products__cards">
         {productCards}
       </div>
-      <Paginator />
+      { !isThereNoItems && <Paginator />}
+      {console.log(filteredProducts)}
     </div>
   );
 };

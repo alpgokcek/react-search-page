@@ -44,7 +44,7 @@ function Paginator(props) {
       >
         {"<"}
       </div>
-      <span data-test="paginator-wrapper">{pageItems}</span>
+      <div data-test="paginator-wrapper" className="paginator-wrapper">{pageItems}</div>
       <div
         data-test="paginator-next"
         className="paginator-item"

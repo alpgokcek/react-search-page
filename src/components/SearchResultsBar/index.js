@@ -29,7 +29,7 @@ const SearchResultsBar = (props) => {
           </>
         )}
       </div>
-      <div className="search-results-bar__sort-by">
+      <div>
         <SelectBox
           options={Object.keys(SORTING_FILTERS).map((sortBy) => ({
             value: sortBy,

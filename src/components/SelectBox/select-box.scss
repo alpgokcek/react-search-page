@@ -4,10 +4,10 @@
 .select-box {
   width: 120px;
   &__button {
-    width: 120px;
+    width: 118px;
     height: 48px;
 
-    font-size: 17px;
+    font-size: 15px;
     line-height: 48px;
 
     display: flex;
@@ -21,7 +21,7 @@
     cursor: pointer;
     &-icon {
       position: relative;
-      right: -7px;
+      right: -15px;
       height: 5px;
     }
   }

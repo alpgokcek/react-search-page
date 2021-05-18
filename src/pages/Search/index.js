@@ -2,12 +2,13 @@ import React, { useEffect } from "react";
 import PropTypes from "prop-types";
 import Layout from "../../components/Layout";
 import productsData from "../../products.json";
-import "./search.scss";
 import Products from "../../components/Products";
 import { getAllProducts, setFilteringCategories } from "../../store/actions";
 import { connect } from "react-redux";
 import FilteringPanel from "../../components/FilteringPanel";
 import SearchResultsBar from "../../components/SearchResultsBar";
+
+import "./search.scss";
 
 const Search = (props) => {
   useEffect(() => {
