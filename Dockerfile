@@ -10,4 +10,4 @@ COPY yarn.lock ./
 RUN yarn install
 
 COPY . ./
-CMD ["yarn", "start"]
+CMD ["./scripts/start.sh"]

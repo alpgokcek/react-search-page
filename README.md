@@ -8,6 +8,17 @@
 
 Search page implementation for Hepsiburada Case Study. Application is deployed to Heroku and could be found on [hepsiburada-search.herokuapp.com](https://hepsiburada-search.herokuapp.com).
 
+## Table of Contents:
+
+- [Getting Started](#getting-started)
+  - [Requirements](#requirements)
+  - [With React Scripts](#with-react-scripts)
+  - [With Docker](#with-docker)
+- [Building the Project](#building-the-project)
+- [Running the Tests](#running-the-test)
+- [Contact Information](#contact-information)
+- [License](#license)
+
 <br/>
 
 ## Getting Started
@@ -89,6 +100,24 @@ or
 
 ```
 yarn build
+```
+
+<br/>
+
+## Running the Tests
+
+<hr/>
+
+- To run the unit and snapshots tests:
+
+```
+npm test
+```
+
+or
+
+```
+yarn test
 ```
 
 <br/>

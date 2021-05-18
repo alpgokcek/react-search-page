@@ -27,7 +27,6 @@ const Products = (props) => {
         {productCards}
       </div>
       { !isThereNoItems && <Paginator />}
-      {console.log(filteredProducts)}
     </div>
   );
 };
