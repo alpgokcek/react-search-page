@@ -4,7 +4,7 @@
 ![npm](https://img.shields.io/badge/npm-7.6-ff5200?style=flat-square&logo=npm&logoColor=white)
 ![yarn](https://img.shields.io/badge/yarn-1.22.4-72147e?style=flat-square&logo=yarn&logoColor=white)
 
-# hepsiburada-search
+# react-search-page
 
 Non-responsive search page implementation for Hepsiburada Case Study. Application is deployed to Heroku and could be found on [hepsiburada-search.herokuapp.com](https://hepsiburada-search.herokuapp.com).
 
